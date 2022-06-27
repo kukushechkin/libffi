@@ -461,7 +461,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "if [ ! -f \"./compile\" ]\nthen\nautoreconf -i -f -v\nif [ -f \"../ltmain.sh\" ]\nthen\necho \"fixing ltmain.sh for some reason\"\nmv ../ltmain.sh ./\nautoreconf -i -f -v\nfi\n/usr/bin/python generate-darwin-source-and-headers.py --only-ios\nfi";
+			shellScript = "if [ ! -f \"./compile\" ]\nthen\nautoreconf -i -f -v\nif [ -f \"../ltmain.sh\" ]\nthen\necho \"fixing ltmain.sh for some reason\"\nmv ../ltmain.sh ./\nautoreconf -i -f -v\nfi\npython generate-darwin-source-and-headers.py --only-ios\nfi";
 		};
 		DB13B3061849E0490010F42D /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -474,7 +474,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "if [ ! -f \"./compile\" ]\nthen\nautoreconf -i -f -v\nif [ -f \"../ltmain.sh\" ]\nthen\necho \"fixing ltmain.sh for some reason\"\nmv ../ltmain.sh ./\nautoreconf -i -f -v\nfi\n/usr/bin/python generate-darwin-source-and-headers.py --only-osx\nfi";
+			shellScript = "if [ ! -f \"./compile\" ]\nthen\nautoreconf -i -f -v\nif [ -f \"../ltmain.sh\" ]\nthen\necho \"fixing ltmain.sh for some reason\"\nmv ../ltmain.sh ./\nautoreconf -i -f -v\nfi\npython generate-darwin-source-and-headers.py --only-osx\nfi";
 		};
 		FDB52FB11F6144FA00AA92E6 /* Run Script */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -488,7 +488,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "if [ ! -f \"./compile\" ]\nthen\nautoreconf -i -f -v\nif [ -f \"../ltmain.sh\" ]\nthen\necho \"fixing ltmain.sh for some reason\"\nmv ../ltmain.sh ./\nautoreconf -i -f -v\nfi\n/usr/bin/python generate-darwin-source-and-headers.py --only-ios\nfi";
+			shellScript = "if [ ! -f \"./compile\" ]\nthen\nautoreconf -i -f -v\nif [ -f \"../ltmain.sh\" ]\nthen\necho \"fixing ltmain.sh for some reason\"\nmv ../ltmain.sh ./\nautoreconf -i -f -v\nfi\npython generate-darwin-source-and-headers.py --only-ios\nfi";
 		};
 		FDDB2F481F5D846400EF414E /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -501,7 +501,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "if [ ! -f \"./compile\" ]\nthen\nautoreconf -i -f -v\nif [ -f \"../ltmain.sh\" ]\nthen\necho \"fixing ltmain.sh for some reason\"\nmv ../ltmain.sh ./\nautoreconf -i -f -v\nfi\n/usr/bin/python generate-darwin-source-and-headers.py --only-osx\nfi";
+			shellScript = "if [ ! -f \"./compile\" ]\nthen\nautoreconf -i -f -v\nif [ -f \"../ltmain.sh\" ]\nthen\necho \"fixing ltmain.sh for some reason\"\nmv ../ltmain.sh ./\nautoreconf -i -f -v\nfi\npython generate-darwin-source-and-headers.py --only-osx\nfi";
 		};
 /* End PBXShellScriptBuildPhase section */
 
